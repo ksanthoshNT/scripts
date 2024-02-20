@@ -571,9 +571,11 @@ data = {
                 }
             },
             "OTHERS_SET_1": {
-                "page_no": 1,
-                "original": 0,
-                "keys_extraction": {}
+                "1609FLC230614_pdf_1_jan_31_12.png": {
+                    "page_no": 1,
+                    "original": 0,
+                    "keys_extraction": {}
+                }
             }
         },
         "BOL": {
@@ -4438,7 +4440,8 @@ def extraction_results_update(data: dict) -> dict:
   for doc, doc_set in data.items():
     for doc_int_set, set_info in doc_set.items():
       if doc_int_set.lower().strip()[:6] == "others":
-        merged_images_data.setdefault(doc, {}).update({doc_int_set: set_info.get("keys_extraction",set_info)})
+        first_key:str = list(set_info.keys())[0]
+        merged_images_data.setdefault(doc, {}).update({doc_int_set: set_info.get(first_key,{}).get("keys_extraction",set_info)})
         continue
       for org_cpy_set, org_cpy_info in set_info.items():
         merge_sets_data: dict = merge_data(org_cpy_info, key_type="image")
@@ -4448,7 +4451,8 @@ def extraction_results_update(data: dict) -> dict:
   for doc, doc_set in merged_images_data.items():
     for doc_int_set, set_info in doc_set.items():
       if doc_int_set.lower().strip()[:6] == "others":
-          final_data.setdefault(doc, {}).update({doc_int_set: set_info.get("keys_extraction",set_info)})
+          first_key:str = next(iter(set_info))
+          final_data.setdefault(doc, {}).update({doc_int_set: set_info.get(first_key,{}).get("keys_extraction",set_info)})
       else:
           merge_set_data: dict = merge_data(set_info, key_type="set")
           final_data.setdefault(doc, {}).update({doc_int_set: merge_set_data})
@@ -4457,5 +4461,5 @@ def extraction_results_update(data: dict) -> dict:
 
 
 if __name__ == "__main__":
-    res = main()
+    res = extraction_results_update(data=data)
     print(res)

@@ -1,0 +1,44 @@
+{
+  "CS": {
+    "Covering_Schedule_200_page_1": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/CS/Covering_Schedule_200_page_1_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/CS/Covering_Schedule_200_page_1_ground_truth.json"
+    }
+  },
+  "IC": {
+    "Insurance_Certificate_7_page_2": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/IC/Insurance_Certificate_7_page_2_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/IC/Insurance_Certificate_7_page_2_ground_truth.json"
+    }
+  },
+  "BOL": {
+    "Bill_of_lading_2073_page_1": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/BOL/Bill_of_lading_2073_page_1_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/BOL/Bill_of_lading_2073_page_1_ground_truth.json"
+    }
+  },
+  "AWB": {
+    "Bill_Of_Landing_538_page_0": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/AWB/Bill_Of_Landing_538_page_0_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/AWB/Bill_Of_Landing_538_page_0_ground_truth.json"
+    }
+  },
+  "CI": {
+    "Invoice_981_11": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/CI/Invoice_981_11_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/CI/Invoice_981_11_ground_truth.json"
+    }
+  },
+  "COO": {
+    "Certificate_Of_Origin_45_page_1": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/COO/Certificate_Of_Origin_45_page_1_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/COO/Certificate_Of_Origin_45_page_1_ground_truth.json"
+    }
+  },
+  "PL": {
+    "Packing_List_40_page_0": {
+      "extraction_result": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/PL/Packing_List_40_page_0_extractres.json",
+      "ground_truth": "/media/ntlpt59/HI/D/DATA_LAKE/TradeFinanceFinalDelivery/rules_keys_output/PL/Packing_List_40_page_0_ground_truth.json"
+    }
+  }
+}
