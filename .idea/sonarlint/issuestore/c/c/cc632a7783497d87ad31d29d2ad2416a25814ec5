@@ -1,0 +1,11 @@
+
+Hpython:S14813"+Remove the unused local variable "heatmap".(ï«ƒøÿÿÿÿ
+rpython:S117f"TRename this parameter "KEY_PATH" to match the regular expression ^[_a-z][a-z0-9_]*$.(àÜ°‚8·‘ñÔÜ1
+zpython:S1542f"bRename function "get_ocr_vision_api_charConfi" to match the regular expression ^[a-z_][a-z0-9_]*$.(àÜ°‚
+Rpython:S1481€"4Remove the unused local variable "char_confidences".(’ı‘°ÿÿÿÿÿ
+upython:S117Ÿ"XRename this local variable "GT_list" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ìáèîşÿÿÿÿ
+Gpython:S1481¡".Remove the unused local variable "confi_list".(¾ÛŒç
+Qpython:S1481³"3Replace unused local variable "all_words" with "_".(¶±Ã×ıÿÿÿÿ
+<python:S125ª"Remove this commented out code.(®èîÿÿÿÿÿ
+<python:S125¹"Remove this commented out code.(ÓÆÉ¿úÿÿÿÿ
+6python:S125Â"Remove this commented out code.(Ö–Õ
