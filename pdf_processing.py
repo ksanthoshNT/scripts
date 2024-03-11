@@ -32,8 +32,11 @@ def call_structure_document(img_path = None,doc_name = None,url = None,fieldIdIn
     # ocr_coords = extract_text_and_coordinates(img_path)
     if do_ocr:
         print("OCR API CALLED")
-        gv_key = requests.post('http://192.168.170.11:8888/gv_ocr/',json = {
-              "GvKey": {},
+        with open("/home/ntlpt59/MAIN/codes/github_scripts/trade_finance/General/spheric_time_383904_b7df5a9337b4.json","r") as f:
+            key  = json.load(f)
+        	
+        gv_key = requests.post('http://0.0.0.0:8000/gv_ocr/',json = {
+              "GvKey": key,
               "ImageBase64": imgb64
                })
         if gv_key.status_code != 200:
@@ -75,7 +78,7 @@ def pdf_process(pdf_path,output_pdf_path = None):
     images = convert_from_path(pdf_path)
     with fitz.open() as pdf_doc:
         for i, image_pil in enumerate(images):
-            # if i!=1: continue
+            if i!=0: continue
             page_number = f'page{i}'
             print(f" ##### START DOC EXTRACTION FOR PAGE: {page_number} ####")
             # if response.status_code == 200:
@@ -91,18 +94,24 @@ def pdf_process(pdf_path,output_pdf_path = None):
             original_image = buffer.getvalue()
             response = call_structure_document(img= original_image,
                                                url=url,
-                                               doc_name='export_letter',
+                                               doc_name=document_name,
                                                fieldIdInput= str(field_id) if field_id is not None else None,
                                                pagenum=page_number,
                                                do_ocr=True if doc_ocr else False
                                                )
             # exit('+++++')
+
+            print("##### Response #####")
+            print(response)
+            print("#####################")
             draw_colors = [[(255,0,0,),(0,255,0),(0,0,255)],[(0,255,0),(0,0,255),(255,0,0)],[(0,0,255),(255,0,0),(0,255,0)]]
             for parent_key in response.keys():
                 for i,(name, info) in enumerate(response[parent_key].items()):
                     field_coordinates = get_coordinates(info['Field_coordinates'])
+                    parent_key = parent_key + (35- len(parent_key))*' '
+                    name = name + (35-len(name))*' '
+                    print(f"PARENTKEY :: {parent_key}  KEY :: {name}  VALUE :: {info['value']}")
                     if len(field_coordinates) == 4:
-                        print(f"PARENTKEY :: {parent_key}, KEY :: {name}, VALUE :: {info['value']}")
                         x1,y1,x2,y2 = field_coordinates
                         # Draw red rectangle
                         index = (i)%3
@@ -141,21 +150,24 @@ def pdf_process(pdf_path,output_pdf_path = None):
     print("Process complete. Output saved to:", output_pdf_path)
 
 if __name__ == '__main__':
+    #url = 'http://192.168.170.11:8088/trade_finance/structuredDocumentExtraction'
     url = 'http://0.0.0.0:8088/trade_finance/structuredDocumentExtraction'
+    #url = 'http://10.2.3.14:8088/trade_finance/structuredDocumentExtraction'
     pdf_path = sys.argv[1]
+    document_name = sys.argv[2]
     output_pdf_path = pdf_path.rsplit('.', 1)[0] + '_output.pdf'
 
-    if len(sys.argv) == 4:
-        field_id = sys.argv[2]
-        doc_ocr = sys.argv[3]
-    elif len(sys.argv) == 3:
-        field_id = sys.argv[2]
+    if len(sys.argv) == 5:
+        field_id = sys.argv[3]
+        doc_ocr = sys.argv[4]
+    elif len(sys.argv) == 4:
+        field_id = sys.argv[3]
         if field_id.lower() in ['true','false']:
             doc_ocr = field_id
             field_id = None
         else:
             doc_ocr = None
-    elif len(sys.argv) == 2:
+    elif len(sys.argv) == 3:
         field_id = None
         doc_ocr = None
     pdf_process(pdf_path,output_pdf_path)

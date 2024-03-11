@@ -20,6 +20,6 @@ if __name__ == "__main__":
             dest = src.rsplit(".",1)[0]
         print(src)
         print(dest)
-        images[i].save(dest+ str(i) +'.jpg', 'JPEG')
+        images[i].save(dest+"_" +str(i+1) +'.png', 'PNG')
 
 
