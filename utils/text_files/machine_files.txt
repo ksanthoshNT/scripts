@@ -1,0 +1,2 @@
+ssh -i /home/ntlpt45/Documents/MAIN/github_scripts/utils/Pem_keys/10.2.3.14/ntng-itf-test-key.pem  azureuser@10.2.3.14
+
