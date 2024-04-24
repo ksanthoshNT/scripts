@@ -1,0 +1,50 @@
+
+6python:S125"Remove this commented out code.(Åî¿§
+Npython:S1172_"6Remove the unused function parameter "condition_dict".(Úı€ô
+Npython:S1172]"1Remove the unused function parameter "condition".(µîŸ´ûÿÿÿÿ
+Hpython:S1172V"1Remove the unused function parameter "documents".(˜”Œ
+Cpython:S1172V",Remove the unused function parameter "keys".(˜”Œ
+Npython:S1172Z"6Remove the unused function parameter "dest_documents".(à¬¹Õ
+Rpython:S1172W"5Remove the unused function parameter "lc_key_values".(ì­èËşÿÿÿÿ
+Npython:S1172["1Remove the unused function parameter "dest_keys".(”ÖĞÃüÿÿÿÿ
+Vpython:S1172\">Remove the unused function parameter "results_classification".(Á¥©è
+Kpython:S1172^".Remove the unused function parameter "status".(ÈÁ‹¬øÿÿÿÿ
+Kpython:S1172Y"3Remove the unused function parameter "source_keys".(Ëµ£é
+Upython:S1172X"8Remove the unused function parameter "source_documents".(ĞĞîÿÿÿÿÿ
+ƒpython:S107V"mFunction "key_present_in_bbox_and_surround_tarun" has 14 parameters, which is greater than the 13 authorized.(˜”Œ
+Jpython:S1481b"-Remove the unused local variable "docs_fail".(’Ä¸¤ûÿÿÿÿ
+Gpython:S1481q"/Remove the unused local variable "merged_text".(ÂÓûê
+Dpython:S1481a",Remove the unused local variable "doc_fail".(öÛİš
+<python:S125„"Remove this commented out code.(Ó­ªúÿÿÿÿ
+7python:S125‡"Remove this commented out code.(Œ¡Êá
+Opython:S1172¯"6Remove the unused function parameter "dest_documents".(à¬¹Õ
+Spython:S1172¬"5Remove the unused function parameter "lc_key_values".(ì­èËşÿÿÿÿ
+Wpython:S1172±">Remove the unused function parameter "results_classification".(Á¥©è
+Opython:S1172°"1Remove the unused function parameter "dest_keys".(”ÖĞÃüÿÿÿÿ
+Epython:S1172«",Remove the unused function parameter "keys".(´ŒŒö
+Opython:S1172²"1Remove the unused function parameter "condition".(µîŸ´ûÿÿÿÿ
+Jpython:S1172«"1Remove the unused function parameter "documents".(´ŒŒö
+{python:S107«"cFunction "count_bbox_tokens_inside_key" has 16 parameters, which is greater than the 13 authorized.(´ŒŒö
+Spython:S1481¿"5Replace unused local variable "word_exists" with "_".(¸œ‘Åüÿÿÿÿ
+Jpython:S1481¼"1Remove the unused local variable "avg_tac_count".(àãÄ¯
+Lpython:S1481À"3Remove the unused local variable "count_of_tokens".(ÉíÊ¡
+Epython:S1481¸",Remove the unused local variable "doc_name".(ü¯¿’
+Epython:S1481¹",Remove the unused local variable "key_name".(´ã®
+lpython:S1226³"NIntroduce a new variable or use its initial value before reassigning 'status'.(‘ÀÆ¢úÿÿÿÿ
+apython:S930Ä"JAdd 1 missing arguments; 'operation_check' expects 4 positional arguments.(äæ¢1
+Lpython:S1172Ò".Remove the unused function parameter "status".(ÈÁ‹¬øÿÿÿÿ
+Opython:S1172Ñ"1Remove the unused function parameter "condition".(µîŸ´ûÿÿÿÿ
+Opython:S1172Î"6Remove the unused function parameter "dest_documents".(à¬¹Õ
+Jpython:S1172Ë",Remove the unused function parameter "keys".(Úğ½„ıÿÿÿÿ
+Opython:S1172Ë"1Remove the unused function parameter "documents".(Úğ½„ıÿÿÿÿ
+Spython:S1172Ë"5Remove the unused function parameter "lc_key_values".(Úğ½„ıÿÿÿÿ
+Wpython:S1172Ğ">Remove the unused function parameter "results_classification".(Á¥©è
+Opython:S1172Ï"1Remove the unused function parameter "dest_keys".(”ÖĞÃüÿÿÿÿ
+Lpython:S1172Í"3Remove the unused function parameter "source_keys".(Ëµ£é
+Vpython:S1172Ì"8Remove the unused function parameter "source_documents".(ĞĞîÿÿÿÿÿ
+xpython:S107Ë"[Function "behalf_of_extraction" has 16 parameters, which is greater than the 13 authorized.(Úğ½„ıÿÿÿÿ
+Jpython:S1481Ø",Remove the unused local variable "doc_name".(”Ë¼¤ÿÿÿÿÿ
+Epython:S1481Ù",Remove the unused local variable "key_name".(Ø–ùÑ
+Spython:S1481Ü"5Replace unused local variable "word_exists" with "_".(¸œ‘Åüÿÿÿÿ
+Epython:S1481Õ",Remove the unused local variable "doc_fail".(öÛİš
+Kpython:S1481Ö"-Remove the unused local variable "docs_fail".(’Ä¸¤ûÿÿÿÿ

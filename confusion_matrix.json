@@ -1,0 +1,816 @@
+{
+  "CS": {
+    "drawee_country": {
+      "NotFound__Value": 5
+    },
+    "document_enclosed['SWB']['original']": {},
+    "document_enclosed['IC']['original']": {},
+    "document_enclosed['RROIWTD']['original']": {},
+    "is_sign": {},
+    "drawee_bank_name": {
+      "Value__Value": 5,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "draft_number": {},
+    "document_enclosed['CPBOL']['original']": {},
+    "drawer_bank_name": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "document_enclosed['CTD']['original']": {},
+    "document_enclosed": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "csh_due_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2
+    },
+    "is_stamp": {
+      "NotFound__Value": 9
+    },
+    "consignee_address": {},
+    "csh_drawn_under_lc_number": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1,
+      "Value__Empty": 1
+    },
+    "csh_presentation_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 6,
+      "NotFound__Value": 2
+    },
+    "advansed_payment": {},
+    "document_enclosed['BOL']['original']": {},
+    "drawee_name": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "NotFound__Value": 1
+    },
+    "drawer_country": {
+      "NotFound__Value": 6
+    },
+    "charges": {},
+    "csh_bill_currency": {
+      "NotFound__Value": 2,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "Value__Empty": 1
+    },
+    "document_enclosed['AWB']['original']": {},
+    "csh_bill_amount": {
+      "NotFound__Value": 2,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "Value__Empty": 1
+    },
+    "drawer_name": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    }
+  },
+  "IC": {
+    "policy_no": {
+      "NotFound__Value": 2,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 4
+    },
+    "lc_ref_no": {
+      "Value__Empty": 2
+    },
+    "mode_of_transport": {
+      "Value__Empty": 1,
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "place_of_expiry": {},
+    "is_sign": {},
+    "sign_by_issuer": {},
+    "from_place": {
+      "Value__Value": 2,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 2
+    },
+    "insurance_issuer_name": {
+      "Value__Value": 6,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    },
+    "vessel_or_flight_name": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1,
+      "Value__Empty": 1
+    },
+    "sum_insured_amount": {
+      "Value__Value": 2,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "signed_by_issuer": {
+      "NotFound__Value": 2,
+      "Value__Value": 3,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "agent_name": {
+      "NotFound__Value": 7
+    },
+    "insurance_coverage_amount": {},
+    "lc_date": {
+      "Value__Empty": 2
+    },
+    "start_date": {
+      "Value__Empty": 1
+    },
+    "sum_insured_currency": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "claim_payable_by_address": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "NotFound__Value": 1
+    },
+    "issue_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 7
+    },
+    "signed_by_agent": {
+      "Value__Empty": 1
+    },
+    "is_stamp": {
+      "NotFound__Value": 9
+    },
+    "to_place": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "sign_by_agent": {},
+    "claim_payable_by_name": {},
+    "shipment_date": {},
+    "certificate_no": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    }
+  },
+  "BOL": {
+    "shipper_country": {
+      "NotFound__Value": 4
+    },
+    "final_destination": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "Value__Empty": 1
+    },
+    "lc_ref_number": {
+      "Value__Value": 5,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "consignee_country": {
+      "NotFound__Value": 5
+    },
+    "freight_collect_or_prepaid": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "NotFound__Value": 2,
+      "Value__Empty": 1
+    },
+    "stamped_vessel_or_cargo_name": {},
+    "is_sign": {},
+    "shipper_name": {
+      "Value__Value": 4,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "signed_by_agent": {},
+    "charter": {},
+    "goods_description": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "NotFound__Value": 1
+    },
+    "stamped_port_of_loading": {},
+    "carrier_name": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "port_of_loading": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2
+    },
+    "pre_carriage_by": {
+      "Value__Empty": 1
+    },
+    "key_no_idea": {},
+    "bill_of_lading_number": {
+      "Value__Empty": 1,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2
+    },
+    "agent_name": {
+      "NotFound__Value": 3,
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "container_number": {
+      "Value__Value": 4,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "signed_by_master": {},
+    "stamped_onboard_date": {},
+    "lc_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 4,
+      "NotFound__Value": 1
+    },
+    "consignee_name": {
+      "Value__Value": 2,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "vessel_deatils": {},
+    "vessel_name": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "consignee_address": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "NotFound__Value": 1
+    },
+    "is_stamp": {
+      "NotFound__Value": 8
+    },
+    "carriage_condition": {},
+    "to_order": {},
+    "port_of_discharge": {
+      "Value__Value": 5,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "gross_weight": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 4,
+      "NotFound__Value": 1
+    },
+    "shipped_onboard_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 4,
+      "NotFound__Value": 3,
+      "Value__Empty": 1
+    },
+    "shipment_date": {},
+    "bill_of_lading_issue_date": {
+      "Value__Empty": 3,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "NotFound__Value": 1
+    },
+    "stamped_shipped_onboard_date": {},
+    "signed_by_carrier": {}
+  },
+  "AWB": {
+    "shipper_country": {
+      "NotFound__Value": 6
+    },
+    "final_destination": {
+      "NotFound__Value": 1
+    },
+    "airport_of_destination": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 10
+    },
+    "awb_original_or_copy": {
+      "Value__Value": 3,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "consignee_country": {
+      "NotFound__Value": 5
+    },
+    "awb_bill_no": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "Value__Empty": 5,
+      "NotFound__Value": 2
+    },
+    "acceptance_instructions": {},
+    "is_sign": {},
+    "shipper_name": {
+      "Value__Value": 3,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "signed_by_named_agent": {},
+    "goods_description": {
+      "Value__Value": 3,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "carrier_name": {
+      "Value__Empty": 6,
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "airport_of_departure": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 10
+    },
+    "signed_by_named_master": {},
+    "stamped_onboard_date": {},
+    "lc_date": {
+      "Value__Empty": 1
+    },
+    "consignee_name": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "flight_details": {
+      "Value__Empty": 2,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "NotFound__Value": 1
+    },
+    "is_stamp": {
+      "NotFound__Value": 7
+    },
+    "consignee_address": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "NotFound__Value": 1
+    },
+    "carriage_condition": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "NotFound__Value": 1
+    },
+    "shipment_date": {},
+    "shipped_onboard_date": {},
+    "stamped_shipped_onboard_date": {},
+    "signed_by_named_carrier": {},
+    "lc_no": {
+      "Value__Empty": 1
+    },
+    "notify_party_country": {
+      "NotFound__Value": 3
+    },
+    "consignor_name": {},
+    "awb_bill_issue_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 9,
+      "NotFound__Value": 1
+    }
+  },
+  "CI": {
+    "lc_ref_no": {
+      "Value__Value": 0,
+      "Value__>90": 1,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "beneficiary_bank_name": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "date_of_invoice": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "Value__Empty": 1
+    },
+    "total_quantity_of_goods": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 7,
+      "Value__Empty": 1
+    },
+    "is_sign": {},
+    "incoterm_clause": {},
+    "total_aggregated_amount": {},
+    "invoice_currency": {
+      "Value__Empty": 10
+    },
+    "goods_description": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "NotFound__Value": 2
+    },
+    "incoterm": {},
+    "remitter_drawee_applicant_importer_buyer_name": {
+      "Value__Value": 0,
+      "Value__>90": 3,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "beneficiary_drawer_exporter_seller_supplier_name": {
+      "Value__Value": 2,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "invoice_due_date": {},
+    "lc_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 3
+    },
+    "is_stamp": {
+      "NotFound__Value": 10
+    },
+    "consignee_address": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 1,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    },
+    "beneficiary_iban_number": {},
+    "invoice_amount": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 5,
+      "Value__Empty": 1
+    },
+    "beneficiary_country": {
+      "NotFound__Value": 5
+    },
+    "remitter_country": {},
+    "consignor_name": {},
+    "country_of_final_destination": {
+      "Value__Value": 4,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 2
+    }
+  },
+  "COO": {
+    "lc_ref_no": {
+      "Value__Value": 2,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "NotFound__Value": 1
+    },
+    "final_destination": {
+      "NotFound__Value": 2,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 1,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    },
+    "vessel_details": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "description_of_goods": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2
+    },
+    "consignee_country": {
+      "NotFound__Value": 9
+    },
+    "coo_issuer_address": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "NotFound__Value": 1,
+      "Value__Empty": 1
+    },
+    "is_sign": {},
+    "coo_issuer_name": {
+      "Value__Value": 3,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "consignor_country": {
+      "NotFound__Value": 5
+    },
+    "consignee_name": {
+      "NotFound__Value": 1,
+      "Value__Empty": 1,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2
+    },
+    "lc_date": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2,
+      "NotFound__Value": 1
+    },
+    "is_stamp": {
+      "NotFound__Value": 8
+    },
+    "country_of_origin_of_goods": {
+      "NotFound__Value": 3,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1,
+      "Value__Empty": 1
+    },
+    "issue_date": {
+      "Value__Empty": 1,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 3,
+      "NotFound__Value": 1
+    },
+    "consignee_address": {
+      "NotFound__Value": 2,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "means_of_transport": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 2
+    },
+    "certificate_no": {
+      "Value__Value": 2,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    },
+    "consignor_name": {
+      "NotFound__Value": 1,
+      "Value__Value": 0,
+      "Value__>90": 1,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    }
+  },
+  "PL": {
+    "invoice_currency": {},
+    "lc_ref_no": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "consignor_name": {},
+    "invoice_amount": {},
+    "lc_date": {
+      "NotFound__Value": 1
+    },
+    "consignee_name": {
+      "NotFound__Value": 1,
+      "Value__Value": 8,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "description_of_goods": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    },
+    "pre_carriage_by": {
+      "Value__Value": 1,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0,
+      "Value__Empty": 1
+    },
+    "consignee_address": {
+      "NotFound__Value": 1,
+      "Value__Value": 0,
+      "Value__>90": 1,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 0
+    },
+    "is_stamp": {
+      "NotFound__Value": 9
+    },
+    "bill_of_lading_date": {},
+    "is_sign": {},
+    "incoterm": {
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    },
+    "country_of_final_destination": {
+      "Value__Empty": 1,
+      "Value__Value": 0,
+      "Value__>90": 0,
+      "Value__>85": 0,
+      "Value__>80": 0,
+      "Value__<80": 1
+    }
+  }
+}
