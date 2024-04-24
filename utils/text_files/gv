@@ -1,0 +1,469 @@
+{
+  "docClass": "BOL",
+  "keys_extraction": {
+    "shipper_name": {
+      "value": "ARION TECHNOLOGY INC",
+      "coordinate": [
+        [
+          240,
+          148,
+          489,
+          169
+        ]
+      ],
+      "model_confidence": [
+        96.79819661400353
+      ]
+    },
+    "shipper_address": {
+      "value": "3F PICA BLDG 894 HOGYE 2 DONG DONGAN GII ANYANG SI GYBONGGI DO 431836 ",
+      "coordinate": [
+        [
+          240,
+          176,
+          751,
+          249
+        ]
+      ],
+      "model_confidence": [
+        96.91840954091167
+      ]
+    },
+    "bill_of_lading_number": {
+      "value": "ATL - SZ1206040",
+      "coordinate": [
+        [
+          1227,
+          183,
+          1388,
+          207
+        ]
+      ],
+      "model_confidence": [
+        93.61098039215685
+      ]
+    },
+    "consignee_name": {
+      "value": "TO ORDER",
+      "coordinate": [
+        [
+          232,
+          339,
+          331,
+          358
+        ]
+      ],
+      "model_confidence": [
+        96.64539448364334
+      ]
+    },
+    "agent_name": {
+      "value": "ATLAS LOGISTICS PVT. LTD ATLAS LOGISTICS PVT LTD",
+      "coordinate": [
+        [
+          968,
+          280,
+          1408,
+          322
+        ],
+        [
+          874,
+          1571,
+          1162,
+          1597
+        ]
+      ],
+      "model_confidence": [
+        73.38712458791916,
+        75.68241102604176
+      ]
+    },
+    "notify_party_name": {
+      "value": "WIRE AND WIRELESS ( INDIA ) LTD. ICICI BANK LTD, COMMERCIAL BANKING GROUP",
+      "coordinate": [
+        [
+          250,
+          525,
+          774,
+          612
+        ]
+      ],
+      "model_confidence": [
+        93.47718465012477
+      ]
+    },
+    "notify_party_address": {
+      "value": "B 10 LAWRENCE DELHI 110035 INDIA K 1 201301 LAWRENCE ROAD INDUSTRIAL AREA NEW DELHI 110035 INDIA II SENIOR HALL FIRST FLOOR SECTOR 18 NOIDA UTTAR PRADESH INDIA",
+      "coordinate": [
+        [
+          222,
+          532,
+          831,
+          664
+        ]
+      ],
+      "model_confidence": [
+        89.8250186124674
+      ]
+    },
+    "vessel_name": {
+      "value": "OOCL AUSTRALIA",
+      "coordinate": [
+        [
+          215,
+          777,
+          389,
+          798
+        ]
+      ],
+      "model_confidence": [
+        95.8321951219512
+      ]
+    },
+    "port_of_discharge": {
+      "value": "KOLKATTA SEAPORT IN INDIA.",
+      "coordinate": [
+        [
+          215,
+          838,
+          530,
+          864
+        ]
+      ],
+      "model_confidence": [
+        93.15048780487805
+      ]
+    },
+    "port_of_loading": {
+      "value": "SHENZHEN SELPORT IN ",
+      "coordinate": [
+        [
+          623,
+          730,
+          930,
+          758
+        ]
+      ],
+      "model_confidence": [
+        92.94181965224423
+      ]
+    },
+    "voyage_number": {
+      "value": "093 ",
+      "coordinate": [
+        [
+          618,
+          782,
+          670,
+          803
+        ]
+      ],
+      "model_confidence": [
+        92.2
+      ]
+    },
+    "final_destination": {
+      "value": "KOLKATTA SEAPORT IN INDIA.",
+      "coordinate": [
+        [
+          613,
+          845,
+          929,
+          869
+        ]
+      ],
+      "model_confidence": [
+        88.5212002317253
+      ]
+    },
+    "goods_quantity": {
+      "value": "600 CTNS",
+      "coordinate": [
+        [
+          547,
+          949,
+          645,
+          968
+        ]
+      ],
+      "model_confidence": [
+        54.79
+      ]
+    },
+    "gross_weight": {
+      "value": "9240",
+      "coordinate": [
+        [
+          1194,
+          958,
+          1284,
+          980
+        ]
+      ],
+      "model_confidence": [
+        85.71
+      ]
+    },
+    "measurement": {
+      "value": "52.5100CB",
+      "coordinate": [
+        [
+          1396,
+          965,
+          1506,
+          989
+        ]
+      ],
+      "model_confidence": [
+        35.18
+      ]
+    },
+    "dimension": {
+      "value": "1 * 40GP",
+      "coordinate": [
+        [
+          215,
+          977,
+          300,
+          998
+        ]
+      ],
+      "model_confidence": [
+        69.45494537090282
+      ]
+    },
+    "goods_description": {
+      "value": "12,000SETS OF DIGITAL SET TOP BOX WITH COMPLETE ACCESSORIES WIRE AND PIRELESS ( INDIA ) LTD",
+      "coordinate": [
+        [
+          212,
+          984,
+          1202,
+          1060
+        ]
+      ],
+      "model_confidence": [
+        77.10251608895372
+      ]
+    },
+    "container_number": {
+      "value": "CLHU4094756",
+      "coordinate": [
+        [
+          200,
+          1088,
+          335,
+          1107
+        ]
+      ],
+      "model_confidence": [
+        87.56
+      ]
+    },
+    "freight_collect_or_prepaid": {
+      "value": "FREIGHT COLLECT FREIGHT COLLECT",
+      "coordinate": [
+        [
+          788,
+          1104,
+          973,
+          1126
+        ],
+        [
+          929,
+          1420,
+          1119,
+          1441
+        ]
+      ],
+      "model_confidence": [
+        79.08,
+        79.06
+      ]
+    },
+    "shipped_onboard_date": {
+      "value": "2012 72012/06/12",
+      "coordinate": [
+        [
+          943,
+          1163,
+          1476,
+          1246
+        ]
+      ],
+      "model_confidence": [
+        57.894999999999996
+      ]
+    },
+    "place_of_issue": {
+      "value": "SHOUZHEN.",
+      "coordinate": [
+        [
+          293,
+          1948,
+          396,
+          1964
+        ]
+      ],
+      "model_confidence": [
+        90.7646540880503
+      ]
+    },
+    "bill_of_lading_issue_date": {
+      "value": "2012/05/12",
+      "coordinate": [
+        [
+          600,
+          1955,
+          723,
+          1974
+        ]
+      ],
+      "model_confidence": [
+        86.39
+      ]
+    },
+    "bol_original_number": {
+      "value": "THREE",
+      "coordinate": [
+        [
+          867,
+          1844,
+          929,
+          1863
+        ]
+      ],
+      "model_confidence": [
+        77.43
+      ]
+    },
+    "port_of_loading_country": {
+      "value": "CHINA",
+      "coordinate": [
+        [
+          623,
+          730,
+          930,
+          758
+        ]
+      ],
+      "model_confidence": [
+        92.94181965224423
+      ]
+    },
+    "gross_weight_units": {
+      "value": "KGS",
+      "coordinate": [
+        [
+          1194,
+          958,
+          1284,
+          980
+        ]
+      ],
+      "model_confidence": [
+        85.71
+      ]
+    },
+    "shipper_country": {
+      "value": "SOUTH KOREA",
+      "coordinate": [
+        [
+          241,
+          231,
+          301,
+          251
+        ]
+      ],
+      "model_confidence": [
+        96.91840954091167
+      ]
+    },
+    "notify_party_country": {
+      "value": "INDIA INDIA INDIA",
+      "coordinate": [
+        [
+          222,
+          532,
+          831,
+          664
+        ]
+      ],
+      "model_confidence": [
+        89.8250186124674
+      ]
+    },
+    "agent_address": {
+      "value": "18/F. ALISON LIGHT INDUSTRIAL INTERNATIONAL TOWER NO.198 SI PING ROAD, SHANGHAI 200080 CHINA. 4A. GOPAL BANERJEE STREET ( NEAR HARISH PARK ) KOLKATA 700 025",
+      "coordinate": [
+        [
+          955,
+          332,
+          1373,
+          381
+        ],
+        [
+          872,
+          1592,
+          1184,
+          1660
+        ]
+      ],
+      "model_confidence": [
+        79.61935084172507,
+        76.13110346396678
+      ]
+    },
+    "Transaction Date": {},
+    "Bill of Lading Number": {},
+    "Bill of Lading Issue Date": {},
+    "Shipper Name": {},
+    "Shipper Address": {},
+    "Shipper Country": {},
+    "Consignee Name": {},
+    "Consignee Address": {},
+    "Consignee Country": {},
+    "Notify Party Name": {},
+    "Notify Party Address": {},
+    "Notify Party Country": {},
+    "Carrier Name": {},
+    "Carrier Address": {},
+    "Carrier Country": {},
+    "Agent Name": {},
+    "Agent Address": {},
+    "Agent Country": {},
+    "Pre-Carriage By": {},
+    "Vessel Name": {},
+    "Voyage Number": {},
+    "Container Number": {},
+    "Place of Receipt": {},
+    "Port of Loading": {},
+    "Port of Discharge": {},
+    "Final Destination": {},
+    "Shipped Onboard Date": {},
+    "BOL Original Number": {},
+    "BOL Original or Copy": {},
+    "Freight Collect At": {},
+    "Freight Collect or Prepaid": {},
+    "Place of Issue": {},
+    "Signed by Carrier": {},
+    "Signed By Agent": {},
+    "LC Reference Number": {},
+    "LC Date": {},
+    "Signature": {},
+    "Stamp": {},
+    "Net Weight": {},
+    "Gross Weight": {},
+    "Page No": {},
+    "Country of Origin": {},
+    "Goods Description": {},
+    "Goods Quantity": {},
+    "Measurement or Dimension": {},
+    "Goods Marks and Nos": {},
+    "master_name": {},
+    "signed_by_master": {},
+    "total_pages": {},
+    "total_original": {}
+  },
+  "statusCode": "200"
+}

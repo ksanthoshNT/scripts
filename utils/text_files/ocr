@@ -1,0 +1,308 @@
+{
+  "docClass": "BOL",
+  "keys_extraction": {
+    "shipper_name": {
+      "value": "ARION TECHNOLOGY INC",
+      "coordinate": [
+        [
+          243,
+          148,
+          491,
+          169
+        ]
+      ],
+      "model_confidence": [
+        95.80795587555575
+      ]
+    },
+    "shipper_address": {
+      "value": "3F PICA BLOG 894 HOGYE 2DONG DONGANGIL ANYANGSI GYEONGGIDO 431836 ",
+      "coordinate": [
+        [
+          240,
+          176,
+          759,
+          249
+        ]
+      ],
+      "model_confidence": [
+        93.00393999433908
+      ]
+    },
+    "consignee_name": {
+      "value": "TO ORDER",
+      "coordinate": [
+        [
+          233,
+          339,
+          331,
+          358
+        ]
+      ],
+      "model_confidence": [
+        96.01488658457548
+      ]
+    },
+    "goods_marks_and_nos": {
+      "value": "WIRE AND WIRELESS(INDIA)| LTD",
+      "coordinate": [
+        [
+          214,
+          1003,
+          562,
+          1027
+        ]
+      ],
+      "model_confidence": [
+        36.477997723708036
+      ]
+    },
+    "goods_description": {
+      "value": "OOOSETS OF DIGITAL SET TOP BOX WITH COMPLETE ACCESSORIES AS PER PP",
+      "coordinate": [
+        [
+          791,
+          987,
+          1211,
+          1062
+        ]
+      ],
+      "model_confidence": [
+        89.69607800001407
+      ]
+    },
+    "container_number": {
+      "value": "CLHU409475",
+      "coordinate": [
+        [
+          200,
+          1088,
+          336,
+          1109
+        ]
+      ],
+      "model_confidence": [
+        81.18
+      ]
+    },
+    "agent_name": {
+      "value": "ATLAS LOGISTICS PVT.LTD",
+      "coordinate": [
+        [
+          970,
+          256,
+          1408,
+          322
+        ]
+      ],
+      "model_confidence": [
+        69.7517264957265
+      ]
+    },
+    "bill_of_lading_number": {
+      "value": "FANC882165224591",
+      "coordinate": [
+        [
+          953,
+          398,
+          1131,
+          417
+        ]
+      ],
+      "model_confidence": [
+        4.19
+      ]
+    },
+    "notify_party_name": {
+      "value": "TWIRE AND WIRELESS (INDIA) LTD, 1CICL BANK LTD,",
+      "coordinate": [
+        [
+          227,
+          525,
+          618,
+          607
+        ]
+      ],
+      "model_confidence": [
+        81.9688619394849
+      ]
+    },
+    "notify_party_address": {
+      "value": "B10 LAWREXCE ROAD INDUSTRIAL AREA NEW DELHT110035  BANKING GROUP K1 SENIOR WALL PIRST FLOOR SECTOR 18 NOIDA 201301 UTTAR PRADESH LNDIA",
+      "coordinate": [
+        [
+          223,
+          520,
+          837,
+          662
+        ]
+      ],
+      "model_confidence": [
+        88.98427726561141
+      ]
+    },
+    "vessel_name": {
+      "value": "OOCL AUSTRALIA",
+      "coordinate": [
+        [
+          217,
+          777,
+          388,
+          798
+        ]
+      ],
+      "model_confidence": [
+        88.68294871794872
+      ]
+    },
+    "final_destination": {
+      "value": "HATTA",
+      "coordinate": [
+        [
+          635,
+          845,
+          711,
+          862
+        ]
+      ],
+      "model_confidence": [
+        78.63
+      ]
+    },
+    "measurement": {
+      "value": "GP 5100CB",
+      "coordinate": [
+        [
+          280,
+          965,
+          1514,
+          1008
+        ]
+      ],
+      "model_confidence": [
+        59.61
+      ]
+    },
+    "dimension": {
+      "value": "140",
+      "coordinate": [
+        [
+          215,
+          977,
+          300,
+          998
+        ]
+      ],
+      "model_confidence": [
+        68.51
+      ]
+    },
+    "bol_original_number": {
+      "value": "THREE",
+      "coordinate": [
+        [
+          864,
+          1832,
+          930,
+          1875
+        ]
+      ],
+      "model_confidence": [
+        78.54
+      ]
+    },
+    "shipper_country": {
+      "value": "SOUTH KOREA",
+      "coordinate": [
+        [
+          241,
+          231,
+          302,
+          251
+        ]
+      ],
+      "model_confidence": [
+        93.00393999433908
+      ]
+    },
+    "notify_party_country": {
+      "value": "INDIA",
+      "coordinate": [
+        [
+          477,
+          531,
+          557,
+          555
+        ]
+      ],
+      "model_confidence": [
+        88.98427726561141
+      ]
+    },
+    "agent_address": {
+      "value": "ALISON LIGHT INDUSTRIAL INTERNATIONAL TOWER NO.188 SI PING ROAD, SHANGHAI 200088 CHINA,",
+      "coordinate": [
+        [
+          957,
+          334,
+          1373,
+          381
+        ]
+      ],
+      "model_confidence": [
+        75.19275229357797
+      ]
+    },
+    "Transaction Date": {},
+    "Bill of Lading Number": {},
+    "Bill of Lading Issue Date": {},
+    "Shipper Name": {},
+    "Shipper Address": {},
+    "Shipper Country": {},
+    "Consignee Name": {},
+    "Consignee Address": {},
+    "Consignee Country": {},
+    "Notify Party Name": {},
+    "Notify Party Address": {},
+    "Notify Party Country": {},
+    "Carrier Name": {},
+    "Carrier Address": {},
+    "Carrier Country": {},
+    "Agent Name": {},
+    "Agent Address": {},
+    "Agent Country": {},
+    "Pre-Carriage By": {},
+    "Vessel Name": {},
+    "Voyage Number": {},
+    "Container Number": {},
+    "Place of Receipt": {},
+    "Port of Loading": {},
+    "Port of Discharge": {},
+    "Final Destination": {},
+    "Shipped Onboard Date": {},
+    "BOL Original Number": {},
+    "BOL Original or Copy": {},
+    "Freight Collect At": {},
+    "Freight Collect or Prepaid": {},
+    "Place of Issue": {},
+    "Signed by Carrier": {},
+    "Signed By Agent": {},
+    "LC Reference Number": {},
+    "LC Date": {},
+    "Signature": {},
+    "Stamp": {},
+    "Net Weight": {},
+    "Gross Weight": {},
+    "Page No": {},
+    "Country of Origin": {},
+    "Goods Description": {},
+    "Goods Quantity": {},
+    "Measurement or Dimension": {},
+    "Goods Marks and Nos": {},
+    "master_name": {},
+    "signed_by_master": {},
+    "total_pages": {},
+    "total_original": {}
+  },
+  "statusCode": "200"
+}
