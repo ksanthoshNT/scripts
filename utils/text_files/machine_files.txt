@@ -1,2 +1,10 @@
 ssh -i /home/ntlpt45/Documents/MAIN/github_scripts/utils/Pem_keys/10.2.3.14/ntng-itf-test-key.pem  azureuser@10.2.3.14
 
+
+
+==============================================================
+MACHINE ACCESS
+
+scp -i /home/ntlpt45/Documents/MAIN/github_scripts/utils/Pem_keys/10.2.3.14/ntng-itf-test-key.pem -r azureuser@10.2.3.14:/datadrive/intelligent_trade_finance_v2/Output_Current_Session/TradeFinanceLocal /home/ntlpt45/Documents/DATA_LAKE/WORK_ITEM_PDFS
+
+
